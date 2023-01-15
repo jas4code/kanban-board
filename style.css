@@ -17,15 +17,14 @@ body {
         display: inline-block;
         vertical-align: top;
     }
-        body div#done-col h2{
-            background-image: linear-gradient(#16a34a, #166534);
-            color: #f0fdf4;
-        }
-
         body div#done-col {
             background-image: linear-gradient(to top,#bbf7d0, #86efac);
             color: #f0fdf4;
         }
+            body div#done-col h2{
+                background-image: linear-gradient(#16a34a, #166534);
+                color: #f0fdf4;
+            }
 
         body div h2 {
             padding: 16px 0 ;
@@ -33,9 +32,8 @@ body {
             color: #f9fafb;
             border-bottom: 3px solid #111827;
             margin-bottom: 5px;
-
         }
-        
+
         body div ul li {
             display: block;
             width: 95%;

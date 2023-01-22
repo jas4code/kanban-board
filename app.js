@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $( function() {
-        $( ".tasks" ).sortable();
-    });
+        $( "#to-do, #in-progess, #for-approval, #testing, #done" ).sortable({
+            connectWith: "ul"
+            }).disableSelection();
+      });
 });
